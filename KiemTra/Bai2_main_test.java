@@ -20,6 +20,7 @@ public class Bai2_main_test {
         String diaChi = in.nextLine();
         System.out.print("Nhập chuyên nghành: ");
         String chuyenNghanh = in.nextLine();
+        System.out.println("hom nayh la ngya dep troi");
 
         Bai2_nhanVien kt2 = new Bai2_ky_thuat(maNhanVien,hoTen, namSinh, diaChi, chuyenNghanh);
         System.out.println(kt2);
